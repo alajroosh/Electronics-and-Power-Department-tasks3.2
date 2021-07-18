@@ -48,13 +48,14 @@ while(i>=3){
 i++;
 if(distance>100)
 flag=true;
-else
+else{
 flag=false;
+break;
+}
 }
 if (flag)
 {
   //run the video and move the arm 
-  flag=false;
   }
 }
 void readSerialPort(){
